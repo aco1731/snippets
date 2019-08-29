@@ -1,0 +1,58 @@
+Legado:
+    Prod:
+      RI:
+        Banco: 
+         Dados:
+              CIDR: 10.0.129.0/24
+              PortGroup: RI-10.0.129.0_vlan_129
+              VLAN: 129
+         Backup: 
+              CIDR: 10.160.0.0/20
+              PortGroup: RI-Backup_10.160.0.0_vlan_500
+              VLAN: 500
+      RIE: 
+        Apres: 192.168.136.0/23
+        Aplic: 192.168.130.0/24
+      RII:
+        Aplic:
+         Dados:
+              CIDR: 10.0.143.0/24
+              PortGroup: RII-10.0.143.0_vlan_143
+              VLAN: 143
+         Backup: 
+              CIDR: 10.200.0.0/19
+              PortGroup: RII-Backup_10.200.0.0_vlan_501
+              VLAN: 501
+        Apres: 10.0.198.0/24
+        Geren: 10.0.144.0/23
+        
+    Homol:
+      RI:
+        Banco: 10.0.194.0/24
+      RIE: 
+        Apres: 192.168.141.0/24
+        Aplic: 192.168.130.0/24
+      RII:
+        Aplic: 10.0.143.0/24
+        Apres: 10.0.198.0/24
+        Geren: 10.0.143.0/24
+              
+MTE:
+    Prod:
+        RI: 
+            Banco: 10.132.8.0/24
+        RIE: 
+            Apres: 10.128.8.0/24
+        RII:
+            Aplic: 10.130.8.0/24
+            Apres: 10.130.9.0/24
+    
+INSS:
+    Prod:
+        RI: 
+            Banco: 10.132.32.0/24
+        RIE: 
+            Apres: 10.128.32.0/24
+        RII:
+            Aplic: 10.130.32.0/24
+            Apres: 10.130.33.0/24

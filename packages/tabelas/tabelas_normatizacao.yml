@@ -1,0 +1,34 @@
+ HOST:
+    f: Fisico
+    p: Particao
+    v: Virtual
+ UF:
+    '1': RJ
+    '2': DF
+    '3': SP
+ FINALIDADE: 
+    '0': Hospedeiro
+    '1': Banco de Dados
+    '2': Aplicação
+    '3': Apresentação
+    '4': Operacional
+    '5': Gerenciamento
+ OS:
+    '0': Windows
+    '1': Linux
+    '2': AIX
+    '3': HP-UX
+    '4': ESX
+    '5': SCO
+    '6': Novell
+    '7': Solaris
+ AMBIENTE:
+    d: Desenvolvimento
+    h: Homologação
+    p: Produção
+    r: Treinamento
+    t: Teste
+ REGIAO:
+    RI: '1'
+    RII: '2345'
+        

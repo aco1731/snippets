@@ -1,0 +1,49 @@
+1) Instalar Python\PIP e verificar o PATH.
+
+
+
+2) Atualizar PIP(Ultima Ver. 19.2.3):
+
+python -m pip install --upgrade pip
+
+3)Instalar o virtual env:
+
+pip install virtualenv
+
+4)Criar o ambiente virtual(venv) na pasta do projeto python:
+
+cd C:\Users\PC\Desktop\DEV\Python\flask>
+
+C:\Users\PC\Desktop\DEV\Python\flask>virtualenv env
+Using base prefix 'c:\\program files\\python37'
+New python executable in C:\Users\PC\Desktop\DEV\Python\flask\env\Scripts\python.exe
+Installing setuptools, pip, wheel...
+done.
+
+5) Ativar ambiente virtual venv:
+
+C:\Users\PC\Desktop\DEV\Python\flask>env\Scripts\activate.bat
+
+7) Instalar os pacotes necessarios ao projeto:
+
+(env) C:\Users\PC\Desktop\DEV\Python\flask>pip install Flask
+
+8)Lista os pacotes:
+
+(env) C:\Users\PC\Desktop\DEV\Python\flask>pip list
+Package      Version
+------------ -------
+Click        7.0
+Flask        1.1.1
+itsdangerous 1.1.0
+Jinja2       2.10.1
+MarkupSafe   1.1.1
+pip          19.2.3
+setuptools   41.2.0
+Werkzeug     0.15.5
+wheel        0.33.6
+
+9) Desativar o virtual env:
+
+env\Scripts\deactivate.bat
+
